@@ -1,0 +1,19 @@
+
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.vscode/
+.idea/
+
+# Generated model files
+*.npy
+*.npz
+*.model
+
+# Original dataset (keep cleaned dataset)
+data/tmdb_5000_movies.csv
+
+# Temporary files
+.DS_Store
